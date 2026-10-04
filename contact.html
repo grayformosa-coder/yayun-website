@@ -68,30 +68,36 @@
         <div class="form-row">
           <div class="form-field">
             <label for="name" data-zh="姓名" data-en="Name">姓名</label>
-            <input type="text" id="name" name="name" required>
+            <input type="text" id="name" name="name" required
+              data-zh-placeholder="王小明" data-en-placeholder="e.g. John Smith">
           </div>
           <div class="form-field">
             <label for="company" data-zh="公司" data-en="Company">公司</label>
-            <input type="text" id="company" name="company">
+            <input type="text" id="company" name="company"
+              data-zh-placeholder="ABC 科技股份有限公司" data-en-placeholder="e.g. ABC Tech Inc.">
           </div>
         </div>
         <div class="form-row">
           <div class="form-field">
             <label for="email" data-zh="Email" data-en="Email">Email</label>
-            <input type="email" id="email" name="email" required>
+            <input type="email" id="email" name="email" required
+              data-zh-placeholder="name@example.com" data-en-placeholder="name@example.com">
           </div>
           <div class="form-field">
             <label for="phone" data-zh="電話（選填）" data-en="Phone (optional)">電話（選填）</label>
-            <input type="tel" id="phone" name="phone">
+            <input type="tel" id="phone" name="phone"
+              data-zh-placeholder="0912-345-678" data-en-placeholder="0912-345-678">
           </div>
         </div>
         <div class="form-field">
           <label for="subject-input" data-zh="主旨" data-en="Subject">主旨</label>
-          <input type="text" id="subject-input" name="subject-input" required>
+          <input type="text" id="subject-input" name="subject-input" required
+            data-zh-placeholder="想了解系統整合服務" data-en-placeholder="Inquiry about SI services">
         </div>
         <div class="form-field">
           <label for="message" data-zh="訊息" data-en="Message">訊息</label>
-          <textarea id="message" name="message" required></textarea>
+          <textarea id="message" name="message" required
+            data-zh-placeholder="您好，我們公司有約 50 位人員，想了解機房建置與資安整合服務..." data-en-placeholder="Hi, our company has about 50 staff and we'd like to learn about serverless and security integration..."></textarea>
         </div>
         <!-- Honeypot spam filter -->
         <input type="checkbox" name="botcheck" class="hidden" style="display:none">

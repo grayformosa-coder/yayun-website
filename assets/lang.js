@@ -10,6 +10,9 @@
     document.querySelectorAll('[data-zh][data-en]').forEach(el => {
       el.textContent = el.getAttribute(`data-${lang}`);
     });
+    document.querySelectorAll('[data-zh-placeholder][data-en-placeholder]').forEach(el => {
+      el.setAttribute('placeholder', el.getAttribute(`data-${lang}-placeholder`));
+    });
     document.querySelectorAll('[data-lang-switch]').forEach(btn => {
       btn.setAttribute('data-current', lang);
       btn.textContent = lang === 'zh' ? 'EN' : '中';
