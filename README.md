@@ -1,4 +1,4 @@
-# 雅韻科技服務 — 官方網站
+# YAYUN Technology — 官方網站
 
 > **Trust. Craft. Service.**
 > 純 HTML + CSS + JS，無框架、無建置工具、可部署到任何靜態主機。
