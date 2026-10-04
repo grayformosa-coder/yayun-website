@@ -227,6 +227,7 @@ button { font: inherit; border: 0; background: 0; cursor: pointer; }
   transition: all 0.25s;
   cursor: pointer;
   font-family: var(--yy-sans);
+  width: auto;  /* 按鈕自動寬度（不要全寬）*/
 }
 .btn--primary {
   background: var(--yy-primary);
@@ -586,7 +587,7 @@ button { font: inherit; border: 0; background: 0; cursor: pointer; }
   .contact-grid { grid-template-columns: 1fr; gap: 32px; }
   .form-row { grid-template-columns: 1fr; }
   .hero__cta { flex-direction: column; }
-  .hero__cta .btn { width: 100%; justify-content: center; }
+  .hero__cta form .btn { width: 100%; justify-content: center; }
 }
 @media (max-width: 480px) {
   .stages { grid-template-columns: 1fr; }
