@@ -1,0 +1,24 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Hermes (agent metadata, no need to version)
+.hermes/
+.cache/
+
+# Local server
+server.log
+*.pid
+
+# Temporary backups
+*.bak
+*.tmp

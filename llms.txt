@@ -1,0 +1,26 @@
+# 雅韻科技服務 Ya-Yun Technology Services
+
+> Trust. Craft. Service.
+> 企業 IT 系統整合、虛擬化、資安防護、儲存備援、機房建置 — 涵蓋整個 SI 產業的科技服務。
+
+## 網站結構
+
+- [首頁](/) — Hero + 4 階段服務 + 6 大核心能力
+- [關於我們](/about.html) — Trust. Craft. Service. 品牌精神
+- [服務項目](/services.html) — SI 業標準 4 階段服務（規劃、建置、移轉、維運）
+- [解決方案](/solutions.html) — 6 大場景（SMB 基礎、資安、虛擬化、機房、AI 知識庫、託管維運）
+- [合作夥伴](/partners.html) — 7 大分類 28 家夥伴
+- [聯絡我們](/contact.html) — 表單 + 1 工作天回覆
+
+## 6 大核心能力
+
+1. 系統整合（Microsoft / Azure / AD / Exchange / RDS）
+2. 虛擬化（VMware / Hyper-V / 超融合）
+3. 資安防護（防火牆 / IPS / 防毒 / 弱點掃描 / SOC）
+4. 儲存備援（NAS / SAN / 異地 / 雲端）
+5. 機房建置（電力 / UPS / 冷卻 / 消防 / 環控）
+6. 監控維運（Checkmk / Graylog / 7×24 NOC）
+
+## 業務範圍
+
+雅韻科技涵蓋整個 SI 產業 — 從核心系統整合到機房建置，提供企業 IT 所需的每一塊拼圖。
