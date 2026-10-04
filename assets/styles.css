@@ -109,9 +109,9 @@ button { font: inherit; border: 0; background: 0; cursor: pointer; }
 .nav { display: flex; gap: 36px; align-items: center; }
 .nav a {
   font-family: var(--yy-caps-en);
-  font-size: 12px; font-weight: 600;
+  font-size: 14px; font-weight: 600;  /* 從 12px 放大到 14px，中文更易讀 */
   color: var(--yy-ink-soft);
-  letter-spacing: 3px;
+  letter-spacing: 1.5px;  /* 從 3px 縮到 1.5px，避免中文被拉太開 */
   transition: color 0.2s;
   position: relative;
   text-transform: uppercase;
