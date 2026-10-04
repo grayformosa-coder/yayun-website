@@ -517,6 +517,20 @@ button { font: inherit; border: 0; background: 0; cursor: pointer; }
   resize: vertical;
 }
 
+/* 表單內送出按鈕不要全寬 */
+form .btn {
+  width: auto;
+  align-self: flex-start;  /* 不伸展填滿容器 */
+}
+
+/* 表單下方個資保護聲明 */
+.form-note {
+  margin-top: 12px;
+  font-size: 12px;
+  color: var(--yy-ink-muted);
+  line-height: 1.6;
+}
+
 /* ===== Footer ===== */
 .site-footer {
   background: #5A0502;  /* 與 LOGO 同色暗紅 */
