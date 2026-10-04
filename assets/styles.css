@@ -488,6 +488,7 @@ button { font: inherit; border: 0; background: 0; cursor: pointer; }
   letter-spacing: 1px;
 }
 .form-field input,
+.form-field select,
 .form-field textarea {
   padding: 12px 14px;
   border: 1px solid var(--yy-line);
@@ -499,10 +500,16 @@ button { font: inherit; border: 0; background: 0; cursor: pointer; }
   transition: border-color 0.2s;
 }
 .form-field input:focus,
+.form-field select:focus,
 .form-field textarea:focus {
   outline: none;
   border-color: var(--yy-primary);
 }
+.form-field select {
+  height: 42px;  /* 跟 input 等高 */
+  cursor: pointer;
+}
+
 .form-field textarea {
   height: 42px;  /* 跟 input 等高（明確設定 height，不只 min-height）*/
   min-height: 42px;
