@@ -512,8 +512,8 @@ button { font: inherit; border: 0; background: 0; cursor: pointer; }
 }
 
 .form-field textarea {
-  height: 42px;  /* 跟 input 等高（明確設定 height，不只 min-height）*/
-  min-height: 42px;
+  height: 210px;  /* 訊息框加高 5 倍（42px × 5 = 210px）*/
+  min-height: 210px;
   resize: vertical;
 }
 
