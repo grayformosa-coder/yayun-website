@@ -504,7 +504,8 @@ button { font: inherit; border: 0; background: 0; cursor: pointer; }
   border-color: var(--yy-primary);
 }
 .form-field textarea {
-  min-height: 42px;  /* 跟 input 等高（14px font + 12×2 padding + 1×2 border = 42px） */
+  height: 42px;  /* 跟 input 等高（明確設定 height，不只 min-height）*/
+  min-height: 42px;
   resize: vertical;
 }
 
