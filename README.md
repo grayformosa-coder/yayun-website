@@ -121,4 +121,4 @@ yayun-website/
 
 ## 📜 授權
 
-© 2026 雅韻科技服務有限公司 Ya-Yun Technology Services Co., Ltd. All Rights Reserved.
+© 2013~2026 雅韻科技服務有限公司 Ya-Yun Technology Services Co., Ltd. All Rights Reserved.
