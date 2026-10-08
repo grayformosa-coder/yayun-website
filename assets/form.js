@@ -28,7 +28,23 @@
     const submitBtn = form.querySelector('button[type="submit"]');
     const originalText = submitBtn.textContent;
     submitBtn.disabled = true;
-    submitBtn.textContent = '...';
+
+    // 讀取目前語言（lang.js 會設在 <html> 的 data-lang）
+    const isEn = document.documentElement.getAttribute('data-lang') === 'en';
+    submitBtn.textContent = isEn ? 'Sending…' : '送出中…';
+
+    // 雙語訊息
+    const MSG = {
+      success: isEn
+        ? '✓ Message sent! We will get back to you soon.'
+        : '✓ 訊息已送出！我們會盡快回覆。',
+      error: isEn
+        ? '✗ Send failed. Please try again or email us directly.'
+        : '✗ 送出失敗，請稍後再試或直接寄 Email。',
+      network: isEn
+        ? '✗ Network error. Please try again.'
+        : '✗ 網路錯誤，請稍後再試。'
+    };
 
     try {
       const formData = new FormData(form);
@@ -38,13 +54,13 @@
       });
       const data = await res.json();
       if (data.success) {
-        showToast('訊息已送出！我們會盡快回覆。', 'success');
+        showToast(MSG.success, 'success');
         form.reset();
       } else {
-        showToast('送出失敗，請稍後再試。', 'error');
+        showToast(MSG.error, 'error');
       }
     } catch (err) {
-      showToast('網路錯誤，請稍後再試。', 'error');
+      showToast(MSG.network, 'error');
     } finally {
       submitBtn.disabled = false;
       submitBtn.textContent = originalText;
